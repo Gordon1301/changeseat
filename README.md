@@ -1,32 +1,54 @@
 import random
 
-target = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
-current = [14,5,8,6,11,1,13,10,12,3,7,4,9,2,16,15]
-temp = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+temp = [0,1,1,1,1,1,1,1,1,1]
+target = [0,3,3,3,3,3,3,3,3,3]
 action = []
-finalaction = []
 
-for j in range(5):
-    while(target != current):
-        run = random.randint(0, 1) #0: back, 1: right
-        if run == 0: #0: back
-            for i in range (16):
-                if i < 12:
-                    temp[i+4] = current[i]
-                else:
-                    temp[i-12] = current[i]
-            current = temp.copy()
-            action.append(run)
-        else: #1: right
-            for i in range (16):
-                if (i+1) % 4 != 0:
-                    temp[i+1] = current[i]
-                else:
-                    temp[i-3] = current[i]
-            current = temp.copy()
-        action.append(run)
-    if j == 0 or len(action) < len(finalaction):
-        finalaction = action.copy()
+while temp != target:
+    run = random.randint(1, 9) 
+    action.append(run)
+    if run == 1:
+        temp[1] += 1 if temp[1] != 3 else 1
+        temp[2] += 1 if temp[2] != 3 else 1
+        temp[4] += 1 if temp[4] != 3 else 1
+    elif run == 2:
+        temp[1] += 1 if temp[1] != 3 else 1
+        temp[2] += 1 if temp[2] != 3 else 1
+        temp[3] += 1 if temp[3] != 3 else 1
+        temp[5] += 1 if temp[5] != 3 else 1
+    elif run == 3:
+        temp[2] += 1 if temp[2] != 3 else 1
+        temp[3] += 1 if temp[3] != 3 else 1
+        temp[6] += 1 if temp[6] != 3 else 1
+    elif run == 4:
+        temp[1] += 1 if temp[1] != 3 else 1
+        temp[4] += 1 if temp[4] != 3 else 1
+        temp[5] += 1 if temp[5] != 3 else 1
+        temp[7] += 1 if temp[7] != 3 else 1
+    elif run == 5:
+        temp[2] += 1 if temp[2] != 3 else 1
+        temp[4] += 1 if temp[4] != 3 else 1
+        temp[5] += 1 if temp[5] != 3 else 1
+        temp[6] += 1 if temp[6] != 3 else 1
+        temp[7] += 1 if temp[7] != 3 else 1
+    elif run == 6:
+        temp[3] += 1 if temp[3] != 3 else 1
+        temp[5] += 1 if temp[5] != 3 else 1
+        temp[6] += 1 if temp[6] != 3 else 1
+        temp[9] += 1 if temp[9] != 3 else 1
+    elif run == 7:
+        temp[1] += 1 if temp[1] != 3 else 1
+        temp[4] += 1 if temp[4] != 3 else 1
+        temp[5] += 1 if temp[5] != 3 else 1
+        temp[7] += 1 if temp[7] != 3 else 1
+    elif run == 8:
+        temp[5] += 1 if temp[5] != 3 else 1
+        temp[7] += 1 if temp[7] != 3 else 1
+        temp[8] += 1 if temp[8] != 3 else 1
+        temp[9] += 1 if temp[9] != 3 else 1
+    else:
+        temp[6] += 1 if temp[6] != 3 else 1
+        temp[8] += 1 if temp[8] != 3 else 1
+        temp[9] += 1 if temp[9] != 3 else 1
         
-print(len(finalaction))
-print(finalaction)
+print(action)
