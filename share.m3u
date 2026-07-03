@@ -9,17 +9,26 @@
 # ==================================================
 
 #EXTINF:-1 tvg-name="澳视体育" group-title="中文",澳门体育
-https://cdn6.163189.xyz/163189/amty
+https://6.cdn.hi.hn/163189/amty
 
 #EXTINF:-1 tvg-name="广东体育 01" group-title="中文",广东体育 01
-http://r.jdshipin.com/LiYdg
+https://2.cdn.hi.hn/163189/gdty
 #EXTINF:-1 ttvg-name="广东体育 02" group-title="中文",广东体育 02
-https://cdn2.163189.xyz/163189/gdty
+http://r.jdshipin.com/LiYdg
 
-#EXTINF:-1 tvg-id="CCTV5.01" tvg-name="CCTV5 01" group-title="中文",CCTV5 01
+#EXTINF:-1 tvg-name="CCTV5 01" group-title="中文",CCTV5 01
 https://php.jdshipin.com/TVOD/iptv.php?id=cctv5
-#EXTINF:-1 tvg-id="CCTV5.02" tvg-name="CCTV5 02" group-title="中文",CCTV5 02
+#EXTINF:-1 tvg-name="CCTV5 02" group-title="中文",CCTV5 02
 https://cdn16.163189.xyz/163189/cctv5-2
+#EXTINF:-1 tvg-name="CCTV5 03" group-title="中文",CCTV5 03
+https://iptv.yang-1989.xyz/cn/qc76fj?token=42b66a0b712b2f64f7aed93f4e397132d273dd657c6796a2
+#EXTINF:-1 tvg-name="CCTV5 04" group-title="中文",CCTV5 04
+https://16.cdn.hi.hn/163189/cctv5-2
+
+#EXTINF:-1 tvg-name="咪咕4K 01" group-title="中文",咪咕4K 01
+http://r.jdshipin.com/ln4xk
+#EXTINF:-1 tvg-name="咪咕4K 02" group-title="中文",咪咕4K 02
+http://r.jdshipin.com/Lqdwf
 
 #EXTINF:-1 tvg-id="WNYW-DT.us_locals1" tvg-name="FOX 01" group-title="英文",FOX 01
 http://89.187.179.148:826/anto.j/c9yJDcXyPe/109548
@@ -44,3 +53,12 @@ http://wickediptv.xyz/Randall123/Randall321/53390
 
 #EXTINF:-1 tvg-id="FS1.HD.us2" tvg-name="FS1 4K" group-title="英文",FS1 4K
 http://atlanticflixtv.online/1472870781733517/7F0A390BF521/1436346
+
+#EXTINF:-1 tvg-id="FIFA-CH01" tvg-name="FIFA CH01" tvg-logo="" group-title="英文",FIFA CH01
+https://cdn-1.yang-1989.xyz/sprt/z9nkgb?token=35a4729cd4bd929d7c741e79337b469f54e7f88f02ad02d5
+#EXTINF:-1 tvg-id="FIFA-CH02" tvg-name="FIFA CH02" tvg-logo="" group-title="英文",FIFA CH02
+https://cdn-1.yang-1989.xyz/sprt/fturpa?token=35a4729cd4bd929d7c741e79337b469f54e7f88f02ad02d5
+#EXTINF:-1 tvg-id="FIFA-CH03" tvg-name="FIFA CH03" tvg-logo="" group-title="英文",FIFA CH03
+https://cdn-1.yang-1989.xyz/sprt/ek3eca?token=35a4729cd4bd929d7c741e79337b469f54e7f88f02ad02d5
+#EXTINF:-1 tvg-id="FIFA-CH04" tvg-name="FIFA CH04" tvg-logo="" group-title="英文",FIFA CH04
+https://cdn-1.yang-1989.xyz/sprt/c5avzj?token=35a4729cd4bd929d7c741e79337b469f54e7f88f02ad02d5
