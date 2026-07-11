@@ -8,8 +8,14 @@
 #               FIFA WORLD CUP 2026
 # ==================================================
 
-#EXTINF:-1 tvg-name="CCTV5 01" group-title="中文",CCTV5 01
-https://php.jdshipin.com/TVOD/iptv.php?id=cctv5
+#EXTINF:-1 tvg-name="NOW 616" group-title="中文",NOW 616
+https://iptv.yang-1989.xyz/hkg/kk6k4k?token=63e50227ce38389acd6a1dadb3a465301cc4ecca3a89543f
+
+#EXTINF:-1 tvg-name="NOW 617" group-title="中文",NOW 617
+https://iptv.yang-1989.xyz/hkg/unagfg?token=63e50227ce38389acd6a1dadb3a465301cc4ecca3a89543f
+
+#EXTINF:-1 tvg-name="CCTV5" group-title="中文",CCTV5
+https://iptv.yang-1989.xyz/cn/zmp735?token=63e50227ce38389acd6a1dadb3a465301cc4ecca3a89543f
 
 #EXTINF:-1 tvg-id="WNYW-DT.us_locals1" tvg-name="FOX 01" group-title="英文",FOX 01
 http://89.187.179.148:826/anto.j/c9yJDcXyPe/109548
